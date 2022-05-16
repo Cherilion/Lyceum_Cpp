@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1650353771 source:d:\документы\пясецкиий кирилл 10 фм-1\finishtest\  task1\main.cpp
+	"matrixTools.h"
+
+1650350877 d:\документы\пясецкиий кирилл 10 фм-1\finishtest\  task1\matrixtools.h
+	<bits/stdc++.h>
+
+1650350957 source:d:\документы\пясецкиий кирилл 10 фм-1\finishtest\  task1\matrixtools.cpp
+	"MatrixTools.h"
+

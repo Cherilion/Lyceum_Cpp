@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1650094572 source:f:\лицей\информатика\code\lessons\les026\class_template\main.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
+1650094604 f:\лицей\информатика\code\lessons\les026\class_template\stack.h
+	<bits/stdc++.h>
+
+1650094412 source:f:\лицей\информатика\code\lessons\les026\class_template\stack.cpp
+	<bits/stdc++.h>
+
+1650094572 source:\\pc-207\общая\10 класс\class_template\main.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
+1650094604 \\pc-207\общая\10 класс\class_template\stack.h
+	<bits/stdc++.h>
+
+1650094602 source:\\pc-207\общая\10 класс\class_template\stack.cpp
+	<bits/stdc++.h>
+
+1650094775 source:d:\документы\пясецкиий кирилл 10 фм-1\satlessons\lesson9\class_template\main.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
+1650094604 d:\документы\пясецкиий кирилл 10 фм-1\satlessons\lesson9\class_template\stack.h
+	<bits/stdc++.h>
+
+1650094602 source:d:\документы\пясецкиий кирилл 10 фм-1\satlessons\lesson9\class_template\stack.cpp
+	<bits/stdc++.h>
+

@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int first_num, second_num;
+    cin >> first_num >> second_num;
+
+
+    while(first_num || second_num != 0)
+    {
+        if(first_num > second_num)
+            first_num %= second_num;
+        else
+            second_num %= first_num;
+    }
+
+    if(first_num) cout << first_num << endl;
+    else cout << first_num << endl;
+
+    return 0;
+}
+

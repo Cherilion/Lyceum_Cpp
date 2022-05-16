@@ -1,0 +1,7 @@
+# ninja log v5
+5	4564	6715009154760841	CMakeFiles/task1.dir/src/MatrixTools.cpp.obj	cc2e5fab902a48c9
+5	3480	6715010723972742	CMakeFiles/task1.dir/src/main.cpp.obj	c52305c89643be10
+3480	4036	6715010729453634	task1.exe	4a40a46ebb168bb3
+1	5562	6715011266252577	CMakeFiles/task2.dir/src/main.cpp.obj	7e693542a482abf8
+68	5568	6715011266742351	CMakeFiles/task2.dir/src/MatrixTools.cpp.obj	a2afc37e6da0f3f
+5568	6879	6715011281627805	task2.exe	a3a41b73e25fe590

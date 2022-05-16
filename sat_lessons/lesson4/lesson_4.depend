@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1644050831 source:d:\документы\kirill pyasecky c++\lesson_4\long_str_nums.cpp
+	<bits/stdc++.h>
+
+1644048970 source:d:\документы\kirill pyasecky c++\lesson_4\main.cpp
+	<iostream>
+	<string>
+

@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef pair<int, int> pr_t;
+
+
+int main()
+{
+    ifstream fin("input.txt");
+    ofstream fout("output.txt");
+
+    srand(time(0));
+
+    int arr_size;
+    fin >>  arr_size;
+
+    int *str, *stb;
+    str = new int[arr_size];
+    stb = new int[arr_size];
+
+    for(int cnt = 0; cnt < arr_size; cnt++){
+        str[cnt] = cnt; stb[cnt] = cnt;
+    }
+
+    for(int cnt = 0; cnt < arr_size; cnt++){
+        swap(str[cnt], str[rand() % arr_size]);
+        swap(stb[cnt], stb[rand() % arr_size]);
+    }
+
+
+
+    int **ptrarray = new int *[arr_size];
+
+    for (int count_row = 0; count_row < arr_size; count_row++) {
+        ptrarray[count_row] = new int[arr_size];
+        for (int count_column = 0; count_column < arr_size; count_column++){
+            ptrarray[count_row][count_column] = (str[count_row] + stb[count_column]) % arr_size + 1;
+        }
+    }
+
+
+    for (int count_row = 0; count_row < arr_size; count_row++) {
+        for (int count_column = 0; count_column < arr_size; count_column++)
+            fout << setw(4) << ptrarray[count_row][count_column] << "  ";
+        fout << "\n\n";
+    }
+
+
+    for (int count = 0; count < arr_size; count++)
+        delete []ptrarray[arr_size];
+
+    system("pause");
+    return 0;
+}
